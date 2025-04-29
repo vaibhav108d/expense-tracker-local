@@ -4,6 +4,12 @@ A simple web-based Expense Tracker to record, display, and manage daily expenses
 
 ---
 
+## Live Demo
+
+[View on GitHub Pages](https://vaibhav108d.github.io/expense-tracker/)
+
+---
+
 ## Features
 
 - Add expense name and amount  
