@@ -6,7 +6,7 @@ A simple web-based Expense Tracker to record, display, and manage daily expenses
 
 ## Live Demo
 
-[View on GitHub Pages](https://vaibhav108d.github.io/expense-tracker/)
+[View on GitHub Pages](https://vaibhav108d.github.io/expense-tracker-local/)
 
 ---
 
@@ -33,4 +33,4 @@ A simple web-based Expense Tracker to record, display, and manage daily expenses
 ```bash
 # Clone the repository
 git clone https://github.com/vaibhav108d/expense-tracker-local.git
-cd expense-tracker
+cd expense-tracker-local
