@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(22, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+.container
+{
+    width: 400px;
+    padding: 20px;
+    background-color: rgb(34, 88, 94);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(215, 209, 209, 0.2);
+}
+h1, h2, h3{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+input[type="text"], input[type="number"]{
+    width: 45%;
+    padding: 10px;
+    background-color: #3d3c3c;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    margin: 3px;
+}
+
+form button{
+    padding: 10px;
+    background-color: #600dd5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form button:hover{
+    background-color: #3700b3;
+    box-shadow: 2px 2px 4px rgba(110, 107, 107, 0.5);
+}
+
+#expense-list
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+#expense-list li
+{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #74c3d9;
+    color: #080808f7;
+    font-weight: bold;
+    padding: 5px;
+    list-style: none;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 4px rgba(82, 164, 168, 0.5);
+    width: 95%;
+}
+#expense-list li button
+{
+    margin-left: auto; 
+    background-color: #600dd5;
+    border: none;
+    padding: 5px 5px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#expense-list li button:hover
+{
+    background-color: #3700b3;
+    box-shadow: 2px 2px 4px rgba(110, 107, 107, 0.5);
+}
+#total
+{
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
