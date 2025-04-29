@@ -32,5 +32,5 @@ A simple web-based Expense Tracker to record, display, and manage daily expenses
 
 ```bash
 # Clone the repository
-git clone https://github.com/vaibhav108d/expense-tracker.git
+git clone https://github.com/vaibhav108d/expense-tracker-local.git
 cd expense-tracker
